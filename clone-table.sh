@@ -56,7 +56,7 @@ put_items() {
 }
 
 # テスト用に複製するテーブル群のテーブル名を指定
-target_tables=("aat-inspections" "aat-organizations" "aat-users")
+target_tables=("TABLE-A" "TABLE-B" "TABLE-C")
 
 for table_name in ${target_tables[@]}; do
   # テーブル名
